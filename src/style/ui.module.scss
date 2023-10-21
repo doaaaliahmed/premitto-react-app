@@ -1,0 +1,24 @@
+@import './style.scss';
+
+.ui-btn {
+//   margin-bottom: 2.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    var(--light-orange),
+    var(--dark-orange),
+    var(--purple)
+  );
+  @include transition;
+  border-radius: 1.5rem;
+  outline: 0;
+  border:0;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
